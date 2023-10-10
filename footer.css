@@ -1,0 +1,46 @@
+footer h2 {
+    font-size: 18px;
+}
+
+.tweet p{
+    margin-top: 10px;
+}
+
+.photos-conteneur {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+.photos-conteneur img {
+    box-shadow: 0px 0px 1px 1px black;
+    margin-right: 8px;
+}
+
+.amis {
+    width: 33%;
+}
+
+.photos {
+    width: auto;
+}
+
+.tweet {
+    width: 33%;
+}
+
+li {
+    list-style: url(images/ico_liensexterne.png);
+    color: #840400;
+    margin-bottom: 2px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 85px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
