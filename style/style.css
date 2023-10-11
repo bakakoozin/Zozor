@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/fond_jaune.png);
+    font-family: Trebuchet MS;
+    font-size: 14px;
+    color: rgb(77, 77, 77);
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav,
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: dayrom;
+    font-weight: normal;
+}
+
+h2{
+    font-family: dayrom;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+header {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.separateur {
+    height: 3px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../images/separateur.png);
+    background-repeat: repeat-x;
+}
+
+main {
+    background-color: #f8eccc;
+}
+
+.separateur-ombre {
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../images/ombre.png);
+    background-repeat: repeat-x;
+}
+
+footer {
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
