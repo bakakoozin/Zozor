@@ -64,5 +64,5 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background: url(../images/separateur.png) repeat-x top, url(../images/ombre.png) repeat-x top, #fff9db;
+    background: url(../images/separateur.png) repeat-x, url(../images/ombre.png) repeat-x 0px 3px,  #fff9db;
 }
