@@ -1,4 +1,4 @@
-.texte {
+.text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -8,17 +8,17 @@
     margin-right: 2px;
 }
 
-.titre-texte {
+.text-title {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.titre-texte h1 {
+.text-title h1 {
     margin-left: 5px;
 }
 
-.texte p{
+.text p{
     margin-top: 15px;
 }
 

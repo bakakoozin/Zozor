@@ -1,4 +1,4 @@
-.a-propos {
+.about {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,8 +11,10 @@
     box-shadow: 0px 2px 2px 2px#706b64;
 }
 
-.a-propos p{
+.about p{
     margin-top: 15px;
+    margin-left: 6px;
+    margin-right: 6px;
 }
 
 .logos {
@@ -30,18 +32,12 @@
     margin-top: 15px;
 }
 
-.photo-id {
+.picture-id {
     margin-top: 15px;
     box-shadow: 0px 0px 1px 1px #303030;
     height: 116px;
 }
-
-.a-propos p{
-    margin-left: 6px;
-    margin-right: 6px;
     
-}
-
-.a-propos h2 {
+.about h2 {
     margin-left: -15px;
 }

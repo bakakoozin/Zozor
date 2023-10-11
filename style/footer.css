@@ -6,22 +6,22 @@ footer h2 {
     margin-top: 10px;
 }
 
-.photos-conteneur {
+.pictures-container {
     display: flex;
     flex-direction: row;
     margin-top: 15px;
 }
 
-.photos-conteneur img {
+.pictures-container img {
     box-shadow: 0px 0px 1px 1px black;
     margin-right: 8px;
 }
 
-.amis {
+.friends {
     width: 33%;
 }
 
-.photos {
+.pictures {
     width: auto;
 }
 

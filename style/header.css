@@ -1,4 +1,4 @@
-.conteneur-logo-titre {
+.container-logo-title {
     width: 150px;
     display: flex;
     flex-direction: column;
@@ -7,7 +7,7 @@
     margin-bottom: 20px;
 }
 
-.logo-titre {
+.logo-title {
     width: 150px;
     display: flex;
     flex-flow:row;
@@ -16,7 +16,7 @@
     position: relative;
 }
 
-.titre-nom {
+.title-name {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
@@ -25,14 +25,14 @@
     color: black;
 }
 
-.logo-titre img {
+.logo-title img {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
     margin-bottom: 23px;
 }
 
-.titre-site {
+.site-title {
     font-family: dayrom;
     font-size: 20px;
     font-weight:normal;

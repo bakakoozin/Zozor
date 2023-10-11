@@ -41,7 +41,7 @@ header {
     margin-right: 50px;
 }
 
-.separateur {
+.separator {
     height: 3px;
     display: flex;
     flex-direction: row;
@@ -53,7 +53,7 @@ main {
     background-color: #f8eccc;
 }
 
-.separateur-ombre {
+.separator-shadow {
     height: 10px;
     display: flex;
     flex-direction: row;
