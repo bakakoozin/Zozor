@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -53,16 +54,15 @@ main {
     background-color: #f8eccc;
 }
 
-.separator-shadow {
-    height: 10px;
-    display: flex;
-    flex-direction: row;
-    background-image: url(../images/ombre.png);
-    background-repeat: repeat-x;
-}
-
 footer {
     margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+.separator-bottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(../images/separateur.png) repeat-x top, url(../images/ombre.png) repeat-x top, #fff9db;
 }

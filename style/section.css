@@ -4,17 +4,9 @@ section {
     margin-right: 50px;
     margin-bottom: 20px;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
-    position: relative;
 }
 
 .bubble {
     margin-top: 140px;
-}
-
-.ico-top {
-    position: absolute;
-    margin-top: 510px;
-    margin-left: 455px;
 }
