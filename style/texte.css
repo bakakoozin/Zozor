@@ -5,7 +5,7 @@
     justify-content: space-between;
     text-align: justify;
     width: 100%;
-    margin-right: 2px;
+    padding-right: 2px;
 }
 
 .text-title {
@@ -15,11 +15,11 @@
 }
 
 .text-title h1 {
-    margin-left: 5px;
+    padding-left: 5px;
 }
 
 .text p{
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 span {
