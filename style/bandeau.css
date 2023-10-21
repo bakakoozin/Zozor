@@ -1,9 +1,7 @@
 .banner {
     color: white;
     display: flex;
-    flex-direction: row;
     align-items: flex-end;
-    width: auto;
     height: 219px;
     background-color: black;
     background-image: url(../images/sanfrancisco.jpg);
