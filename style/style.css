@@ -37,7 +37,7 @@ h2{
 }
 
 header {
-    padding: 15px 50px 0px 50px;
+    padding: 0px 50px 0px 50px;
 }
 
 .separator {
@@ -50,10 +50,11 @@ header {
 
 main {
     background-color: #f8eccc;
+    padding: 0px 50px 0px 50px;
 }
 
 footer {
-    padding: 0px 50px 20px 50px;
+    padding: 0px 50px 25px 50px;
 }
 
 .separator-bottom {
