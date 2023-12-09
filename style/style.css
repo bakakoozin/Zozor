@@ -42,8 +42,6 @@ header {
 
 .separator {
     height: 3px;
-    display: flex;
-    flex-direction: row;
     background-image: url(../images/separateur.png);
     background-repeat: repeat-x;
 }
@@ -51,6 +49,9 @@ header {
 main {
     background-color: #f8eccc;
     padding: 0px 50px 0px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 footer {
