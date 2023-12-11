@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "ballpark";
+    src: url(../polices/ballpark.woff);
+    font-family: "dayrom";
+    src: url(../polices/dayrom.woff);
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
