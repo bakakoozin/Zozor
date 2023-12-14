@@ -1,8 +1,10 @@
 @font-face {
     font-family: "ballpark";
-    src: url(../polices/ballpark.woff);
+    src: url(../fonts/ballpark.woff);
+    src: url(../fonts/ballpark.svg);
     font-family: "dayrom";
-    src: url(../polices/dayrom.woff);
+    src: url(../fonts/dayrom.woff);
+    src: url(../fonts/dayrom.svg)
 }
 
 * {
@@ -55,7 +57,7 @@ header {
 
 main {
     background-color: #f8eccc;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
