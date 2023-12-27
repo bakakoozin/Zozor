@@ -1,10 +1,12 @@
 @font-face {
     font-family: "ballpark";
     src: url(../fonts/ballpark.woff);
-    src: url(../fonts/ballpark.svg);
+    src: url(../fonts/ballpark.eot);
+    src: url(../fonts/ballpark.ttf);
     font-family: "dayrom";
     src: url(../fonts/dayrom.woff);
-    src: url(../fonts/dayrom.svg)
+    src: url(../fonts/dayrom.eot);
+    src: url(../fonts/dayrom.ttf)
 }
 
 * {

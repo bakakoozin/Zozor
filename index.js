@@ -1,12 +1,13 @@
 const express = require("express")
-const port = process.env.PORT || 5000
+const app = express()
+const port = 5000
+const cors = require('cors')
 
-const app = express();
-
-app.get("/", (req, res) => {
+app.use(cors())
+app.get('/', (req, res) => {
     res.send('Hello World !')
 })
 
 app.listen(port, () => {
-    console.log(`Server online on port ${port} !`)
+    console.log(`Server is running at http://localhost:${port}`)
 })

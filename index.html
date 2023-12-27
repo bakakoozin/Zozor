@@ -41,8 +41,16 @@
             <div class="text">
                 <div class="text-title">
                     <img src="images/ico_epingle.png" alt="logo représentant une pince à linge">
-                    <h1>JE SUIS UN GRAND VOYAGEUR</h1>
-                </div>
+                    <h1 id="helloWorldText">Loading...</h1>
+                    <script>
+                        fetch('http://localhost:5000')
+                            .then(response => response.text())
+                            .then(data => {
+                                document.getElementById('helloWorldText').textContent = data
+                            })
+                            .catch(error => console.error('Erreur lors de la requête fetch :', error))
+                    </script>
+                </div> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
                     aliqua. Phasellus faucibus scelerisque eleifend donec. Vulputate ut pharetra sit amet aliquam id diam maecenas. 
                     Ridiculus mus mauris vitae ultricies leo integer malesuada. Sit amet volutpat consequat mauris nunc congue nisi 
