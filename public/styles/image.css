@@ -1,0 +1,29 @@
+.image-1 {
+    display: flex;
+    position: relative;
+    top: 15px;
+}
+
+.image-1 img {
+    width: 1440px;
+    height:702px;
+    top: 113px;
+}
+
+.dark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 59px;
+    background-color: #00000099;
+}
+
+.dark a {
+    position: absolute;
+    left: 44%;
+    right: 44%;
+}

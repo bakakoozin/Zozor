@@ -16,13 +16,17 @@
 }
 
 body {
-    background-image: url(/images/fond_jaune.png);
+    background: #000F18;
     font-family: Trebuchet MS;
     font-size: 14px;
-    color: rgb(77, 77, 77);
-    max-width: 1050px;
+    color: #B5ACA9;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+}
+
+header {
+    color: #B83503;
 }
 
 nav,
@@ -47,10 +51,6 @@ h2{
     padding-top: 15px;
 }
 
-header {
-    padding: 0px 50px 0px 50px;
-}
-
 .separator {
     height: 3px;
     background-image: url(/images/separateur.png);
@@ -58,8 +58,6 @@ header {
 }
 
 main {
-    background-color: #f8eccc;
-    padding: 0px 50px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -67,11 +65,4 @@ main {
 
 footer {
     padding: 0px 50px 25px 50px;
-}
-
-.separator-bottom {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    background: url(/images/separateur.png) repeat-x, url(/images/ombre.png) repeat-x 0px 3px,  #fff9db;
 }
