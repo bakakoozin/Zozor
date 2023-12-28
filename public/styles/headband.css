@@ -10,12 +10,6 @@
     border-radius: 3px;
 }
 
-.button-article {
-    background-image: url(../images/fond_degraderouge.png);
-    padding: 5px 8px 5px 8px;
-    border-radius: 4px;
-}
-
 .dark {
     display: flex;
     flex-direction: row;

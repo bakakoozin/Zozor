@@ -1,10 +1,12 @@
 @font-face {
     font-family: "ballpark";
-    src: url(../fonts/ballpark.woff);
-    src: url(../fonts/ballpark.svg);
+    src: url(/fonts/ballpark.woff);
+    src: url(/fonts/ballpark.eot);
+    src: url(/fonts/ballpark.ttf);
     font-family: "dayrom";
-    src: url(../fonts/dayrom.woff);
-    src: url(../fonts/dayrom.svg)
+    src: url(/fonts/dayrom.woff);
+    src: url(/fonts/dayrom.eot);
+    src: url(/fonts/dayrom.ttf)
 }
 
 * {
@@ -14,7 +16,7 @@
 }
 
 body {
-    background-image: url(../images/fond_jaune.png);
+    background-image: url(/images/fond_jaune.png);
     font-family: Trebuchet MS;
     font-size: 14px;
     color: rgb(77, 77, 77);
@@ -51,7 +53,7 @@ header {
 
 .separator {
     height: 3px;
-    background-image: url(../images/separateur.png);
+    background-image: url(/images/separateur.png);
     background-repeat: repeat-x;
 }
 
@@ -71,5 +73,5 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background: url(../images/separateur.png) repeat-x, url(../images/ombre.png) repeat-x 0px 3px,  #fff9db;
+    background: url(/images/separateur.png) repeat-x, url(/images/ombre.png) repeat-x 0px 3px,  #fff9db;
 }
