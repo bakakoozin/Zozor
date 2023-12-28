@@ -35,7 +35,7 @@ footer h2 {
 }
 
 li {
-    list-style: url(../images/ico_liensexterne.png);
+    list-style: url(/images/ico_liensexterne.png);
     color: #840400;
     padding-bottom: 2px;
     list-style-position: inside;
