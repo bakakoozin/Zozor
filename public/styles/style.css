@@ -1,12 +1,11 @@
 @font-face {
-    font-family: "ballpark";
-    src: url(/fonts/ballpark.woff);
-    src: url(/fonts/ballpark.eot);
-    src: url(/fonts/ballpark.ttf);
-    font-family: "dayrom";
-    src: url(/fonts/dayrom.woff);
-    src: url(/fonts/dayrom.eot);
-    src: url(/fonts/dayrom.ttf)
+    font-family: "Inter";
+    src: url(/fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins";
+    src: url(/fonts/Poppins-Regular.ttf);
 }
 
 * {
@@ -41,12 +40,12 @@ a {
 }
 
 h1 {
-    font-family: dayrom;
+    font-family: Inter;
     font-weight: normal;
 }
 
 h2{
-    font-family: dayrom;
+    font-family: Inter;
     font-weight: normal;
     padding-top: 15px;
 }

@@ -12,7 +12,7 @@
 
 .dark {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     position: absolute;
     bottom: 0;
@@ -24,6 +24,6 @@
 
 .dark a {
     position: absolute;
-    left: 44%;
-    right: 44%;
+    top: 40%;
+    color: #FFFFFF;
 }
