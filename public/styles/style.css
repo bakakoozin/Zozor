@@ -16,7 +16,7 @@
 
 body {
     background: #000F18;
-    font-family: Trebuchet MS;
+    font-family: Inter;
     font-size: 14px;
     color: #B5ACA9;
     max-width: 1440px;
@@ -40,12 +40,10 @@ a {
 }
 
 h1 {
-    font-family: Inter;
     font-weight: normal;
 }
 
 h2{
-    font-family: Inter;
     font-weight: normal;
     padding-top: 15px;
 }
