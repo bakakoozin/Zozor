@@ -3,7 +3,6 @@ import './public/styles/style.css'
 import './public/styles/header.css'
 import './public/styles/image.css'
 import './public/styles/section.css'
-import './public/styles/text.css'
 import './public/styles/api.css'
 import './public/styles/footer.css'
 
