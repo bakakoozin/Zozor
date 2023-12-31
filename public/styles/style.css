@@ -40,18 +40,16 @@ a {
 }
 
 h1 {
-    font-weight: normal;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 4%;
+    line-height: 51.2px;
 }
 
 h2{
     font-weight: normal;
     padding-top: 15px;
-}
-
-.separator {
-    height: 3px;
-    background-image: url(/images/separateur.png);
-    background-repeat: repeat-x;
 }
 
 main {
